@@ -15,8 +15,8 @@ public class TokenBasedSimilarity {
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
         double coef;
-        List<String> biGramsOfStr1 = paddedNGramOfString(str1, 2);
-        List<String> biGramsOfStr2 = paddedNGramOfString(str2, 2);
+        List<String> biGramsOfStr1 = paddedNGramOfString2(str1);
+        List<String> biGramsOfStr2 = paddedNGramOfString2(str2);
 
         coef = (double)intersect(biGramsOfStr1, biGramsOfStr2) / (double)union(biGramsOfStr1, biGramsOfStr2);
         return coef;
@@ -26,8 +26,11 @@ public class TokenBasedSimilarity {
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
         double coef;
-        List<String> biGramsOfStr1 = paddedNGramOfString(str1, 2);
-        List<String> biGramsOfStr2 = paddedNGramOfString(str2, 2);
+        List<String> biGramsOfStr1 = paddedNGramOfString2(str1);
+        List<String> biGramsOfStr2 = paddedNGramOfString2(str2);
+
+        System.out.println(biGramsOfStr1.toString());
+        System.out.println(biGramsOfStr2.toString());
 
         coef = (double) 2*intersect(biGramsOfStr1, biGramsOfStr2)/(biGramsOfStr1.size()+biGramsOfStr2.size());
         return coef;
@@ -67,6 +70,16 @@ public class TokenBasedSimilarity {
         words = str.split(seperator);
         for(String word: words)
             nGrams.addAll(paddedNGramsOfWord(word, n));
+        return nGrams;
+    }
+
+    private List<String> paddedNGramOfString2(String str) {
+        List<String> nGrams = new ArrayList<>();
+        String[] words;
+        str = str.toLowerCase();
+        words = str.split(seperator);
+        for(String word: words)
+            nGrams.add(word);
         return nGrams;
     }
 

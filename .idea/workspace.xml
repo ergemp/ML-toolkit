@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b07bcf-a86b-42a7-9c8d-c84c9e95ef81" name="Default Changelist" comment="pearson correlation coefficient calculator added">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/minmax/algorithm/FindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/minmax/algorithm/FindMin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/minmax/algorithm/MinMaxNormalization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/minmax/examples/NormalizeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML_toolkit.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/scheduling/example/GreedyUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/scheduling/examples/GreedyUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/similarity/examples/CommonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/similarity/examples/CommonExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/similarity/model/TokenBasedSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/similarity/model/TokenBasedSimilarity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/example/BubbleSortUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/examples/BubbleSortUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/example/MergeSortUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/examples/MergeSortUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/example/QuickSortUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/examples/QuickSortUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/example/SelectionSortUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/sorting/examples/SelectionSortUsage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/palindrome/algorithm/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/palindrome/algorithm/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/palindrome/examples/Example01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/ergemp/mlt/minmax/examples/NormalizeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/ergemp/mlt/minmax/examples/NormalizeExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,30 +130,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunManager" selected="Application.NormalizeExample">
-    <configuration name="BubbleSortUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.sorting.examples.BubbleSortUsage" />
-      <module name="ML_toolkit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ergemp.mlt.sorting.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Example01">
     <configuration name="CalculateCoeffExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.pearsonsCorrelation.examples.CalculateCoeffExample" />
       <module name="ML_toolkit" />
@@ -182,6 +156,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.ergemp.mlt.similarity.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.palindrome.examples.Example01" />
+      <module name="MLtoolkit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ergemp.mlt.palindrome.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,13 +202,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example01" />
         <item itemvalue="Application.NormalizeExample" />
         <item itemvalue="Application.CommonExample" />
         <item itemvalue="Application.example01" />
         <item itemvalue="Application.CalculateCoeffExample" />
-        <item itemvalue="Application.BubbleSortUsage" />
       </list>
     </recent_temporary>
   </component>

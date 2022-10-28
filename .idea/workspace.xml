@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b07bcf-a86b-42a7-9c8d-c84c9e95ef81" name="Default Changelist" comment="pearson correlation coefficient calculator added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/palindrome/algorithm/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/palindrome/algorithm/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/palindrome/examples/Example01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/ergemp/mlt/minmax/examples/NormalizeExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/ergemp/mlt/minmax/examples/NormalizeExample.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,19 +127,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Example01">
-    <configuration name="CalculateCoeffExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.pearsonsCorrelation.examples.CalculateCoeffExample" />
+}</component>
+  <component name="RunManager" selected="Application.Example">
+    <configuration name="CommonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.similarity.examples.CommonExample" />
       <module name="ML_toolkit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ergemp.mlt.pearsonsCorrelation.examples.*" />
+          <option name="PATTERN" value="org.ergemp.mlt.similarity.examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.similarity.examples.CommonExample" />
-      <module name="ML_toolkit" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.blackjack.Example" />
+      <module name="MLtoolkit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ergemp.mlt.similarity.examples.*" />
+          <option name="PATTERN" value="org.ergemp.mlt.blackjack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.Example01" />
         <item itemvalue="Application.NormalizeExample" />
         <item itemvalue="Application.CommonExample" />
         <item itemvalue="Application.example01" />
-        <item itemvalue="Application.CalculateCoeffExample" />
       </list>
     </recent_temporary>
   </component>

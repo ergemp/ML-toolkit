@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b07bcf-a86b-42a7-9c8d-c84c9e95ef81" name="Default Changelist" comment="pearson correlation coefficient calculator added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/blackjack-test01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/blackjack-test02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/blackjack-test03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/alto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/api_config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/bazaar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/digits" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/hocr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/lstmbox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/quiet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/unlv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/wordstrbox" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/eng.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/osd.traineddata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tessdata/pdf.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Ocr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,13 +146,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Example">
+}]]></component>
+  <component name="RunManager" selected="Application.Ocr">
     <configuration name="CommonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.similarity.examples.CommonExample" />
       <module name="ML_toolkit" />
@@ -186,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.linearRegression.examples.example01" />
-      <module name="ML_toolkit" />
+    <configuration name="Ocr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.blackjack.Ocr" />
+      <module name="MLtoolkit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ergemp.mlt.linearRegression.examples.*" />
+          <option name="PATTERN" value="org.ergemp.mlt.blackjack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ocr" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Example01" />
         <item itemvalue="Application.NormalizeExample" />
         <item itemvalue="Application.CommonExample" />
-        <item itemvalue="Application.example01" />
       </list>
     </recent_temporary>
   </component>
@@ -348,6 +368,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="merge sort added" />
     <MESSAGE value="quick sort added" />
     <MESSAGE value="bubble sort added" />

@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b07bcf-a86b-42a7-9c8d-c84c9e95ef81" name="Default Changelist" comment="pearson correlation coefficient calculator added">
-      <change afterPath="$PROJECT_DIR$/resources/blackjack-test01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/blackjack-test02.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/blackjack-test03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/fox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/alto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/api_config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/bazaar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/digits" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/hocr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/lstmbox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/quiet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/unlv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/configs/wordstrbox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/eng.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/osd.traineddata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/tessdata/pdf.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Ocr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Ocr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Ocr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +130,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/ergemp/IdeaProjects/ML-toolkit"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Ocr">
@@ -215,17 +196,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

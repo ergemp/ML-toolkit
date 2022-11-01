@@ -15,6 +15,7 @@ public class Ocr {
         //tesseract.setPageSegMode(1);
         //tesseract.setOcrEngineMode(1);
 
+
         try {
 
             String result = tesseract.doOCR(image);

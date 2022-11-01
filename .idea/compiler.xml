@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ML-toolkit" />
         <module name="ML_toolkit" />
         <module name="MLtoolkit" />
       </profile>

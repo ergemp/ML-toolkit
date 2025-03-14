@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95b07bcf-a86b-42a7-9c8d-c84c9e95ef81" name="Default Changelist" comment="pearson correlation coefficient calculator added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/FFT/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/FFT/FFTPrinceton/FFTPrincetonExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/FFT/FFTPrinceton/function/FFT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/FFT/FFTPrinceton/model/Complex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Ocr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/blackjack/Ocr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +72,9 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
@@ -129,25 +136,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.FFTPrincetonExample.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/ergemp/IdeaProjects/ML-toolkit"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ergemp/IdeaProjects/ML-toolkit/src/main/java/org/ergemp/mlt/FFT",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Ocr">
-    <configuration name="CommonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.similarity.examples.CommonExample" />
-      <module name="ML_toolkit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ergemp.mlt.similarity.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/FFT" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FFTPrincetonExample">
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.blackjack.Example" />
       <module name="MLtoolkit" />
@@ -167,6 +173,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.ergemp.mlt.palindrome.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FFTPrincetonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.FFT.FFTPrinceton.FFTPrincetonExample" />
+      <module name="MLtoolkit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ergemp.mlt.FFT.FFTPrinceton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FFTPrincetonExample" />
         <item itemvalue="Application.Ocr" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Example01" />
         <item itemvalue="Application.NormalizeExample" />
-        <item itemvalue="Application.CommonExample" />
       </list>
     </recent_temporary>
   </component>

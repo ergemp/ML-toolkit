@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b07bcf-a86b-42a7-9c8d-c84c9e95ef81" name="Default Changelist" comment="pearson correlation coefficient calculator added" />
+    <list default="true" id="95b07bcf-a86b-42a7-9c8d-c84c9e95ef81" name="Default Changelist" comment="pearson correlation coefficient calculator added">
+      <change afterPath="$PROJECT_DIR$/resources/images/sample_2048x2048.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/sample_2048×2048.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/sample_5184×3456.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/CompressImageFFT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/Convert1DComplexArray2MagnitudeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/Convert1DListToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/Convert2DArrayTo1DArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/ConvertComplex2Pixels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/ConvertToGrayScale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/GetColorMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/GetLargestN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/PadToPowerOfTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/PerformFFT2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/PerformIFFT2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/Transpose2DComplexArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util/Transpose2DDoubleArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,27 +145,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FFTPrincetonExample.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ergemp/IdeaProjects/ML-toolkit/src/main/java/org/ergemp/mlt/FFT&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.CompressImageFFT.executor": "Run",
+    "Application.FFTPrincetonExample.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/ergemp/IdeaProjects/ML-toolkit/src/main/java/org/ergemp/mlt/imageOperations/util",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/imageOperations/util" />
+      <recent name="$PROJECT_DIR$/resources/images" />
       <recent name="$PROJECT_DIR$/src/main/java/org/ergemp/mlt/FFT" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ergemp.mlt.imageOperations.util" />
+      <recent name="org.ergemp.mlt.imageOperations" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.FFTPrincetonExample">
+  <component name="RunManager" selected="Application.CompressImageFFT">
+    <configuration name="CompressImageFFT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.imageOperations.CompressImageFFT" />
+      <module name="MLtoolkit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ergemp.mlt.imageOperations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.blackjack.Example" />
       <module name="MLtoolkit" />
@@ -186,19 +225,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NormalizeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.minmax.examples.NormalizeExample" />
-      <module name="ML_toolkit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ergemp.mlt.minmax.examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ocr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ergemp.mlt.blackjack.Ocr" />
       <module name="MLtoolkit" />
@@ -214,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompressImageFFT" />
         <item itemvalue="Application.FFTPrincetonExample" />
         <item itemvalue="Application.Ocr" />
         <item itemvalue="Application.Example" />
         <item itemvalue="Application.Example01" />
-        <item itemvalue="Application.NormalizeExample" />
       </list>
     </recent_temporary>
   </component>

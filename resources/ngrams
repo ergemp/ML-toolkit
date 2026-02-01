@@ -1,0 +1,22 @@
+what$negative=1
+the$negative=1
+fuck$negative=2
+you$negative=1$positive=1
+are$positive=1
+most$positive=1
+welcome$positive=1
+my$positive=1
+friend$positive=1
+what the$negative=1
+the fuck$negative=1
+fuck you$negative=1
+you are$positive=1
+are most$positive=1
+most welcome$positive=1
+welcome my$positive=1
+my friend$positive=1
+what the fuck$negative=1
+you are most$positive=1
+are most welcome$positive=1
+most welcome my$positive=1
+welcome my friend$positive=1
